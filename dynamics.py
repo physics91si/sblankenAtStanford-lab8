@@ -12,12 +12,16 @@ import matplotlib.animation as animation
 # Modules you will need
 import numpy as np
 import particle
+import Molcule
+
 
 # TODO: Implement this function
 def init_molecule():
     """Create Particles p1 and p2 inside boundaries and return a molecule
     connecting them"""
-
+    posOne = [0.2,0.2]
+    posTwo = [0.8,0.8]
+    molecule = Molecule(posOne, posTwo, 1,2,1,5)
     pass
 
 
